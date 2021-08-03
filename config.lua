@@ -1,15 +1,15 @@
 return {
-	bot_api_key = "", --Please add your bot api key here!
+	bot_api_key = "1855418749:AAHNHJT6Om1_Tqb8oxqVPlK-0ZIN4o5z_Cs", --Please add your bot api key here!
 	thecatapi_key = 'http://thecatapi.com/?id=5vs',
 	cmd = '^[/!#]',
 	allowed_updates = {"message", "edited_message", "callback_query"},
 	--db = 2,
 	  db = 10,
 	--default redis db: 0,
-	superadmins = {65330733,96438491},
+	superadmins = {1793020271},
 	log = {
 		chat = -1001080002429, --Your log chat, where your bot must be added!
-		admin = 65330733, --The admin.
+		admin = 1793020271, --The admin.
 		stats = nil
 	},
 	human_readable_version = '4.2.0',
@@ -28,65 +28,65 @@ return {
 		realm_max_members = 60,
 		realm_max_subgroups = 6
 	},
-	channel = '@Redlol', --channel username with the '@'
+	channel = '@TiuMorty', --channel username with the '@'
 	source_code = 'https://github.com/olhodedeus/Redlol',
 	help_groups_link = 'telegram.me/GrupoRedlol',
 	plugins = {
-		'onmessage', --THIS MUST BE THE FIRST: IF AN USER IS FLOODING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
-		'antispam', --SAME OF onmessage.lua
+		--'onmessage', --THIS MUST BE THE FIRST: IF AN USER IS FLOODING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
+		--'antispam', --SAME OF onmessage.lua
 		--'realms', --must stay here
-		'doacoes',
+		--'doacoes',
 		--'sobre',
-		'id',
-		'formatacao',
+		--'id',
+		--'formatacao',
 		--'gMaps',
-		'cats',
-		'grupos',
-		'sorteio',
-		'backup',
-		'banhammer',
-		'block',
-		'configure',
-		'dashboard',
-		'floodmanager',
+		--'cats',
+		--'grupos',
+		--'sorteio',
+		--'backup',
+		--'banhammer',
+		--'block',
+		--'configure',
+		--'dashboard',
+		--'floodmanager',
 		'help',
-		'rules',
-		'links',
-		'logchannel',
-		'mediasettings',
-		'menu',
-		'moderators',
-		'private',
-		'private_settings',
-		'report',
-		'service',
-		'setlang',
-		'users',
-		'warn',
-		'welcome',
-		'pin',
-		'admin',
+		--'rules',
+		--'links',
+		--'logchannel',
+		--'mediasettings',
+		--'menu',
+		--'moderators',
+		--'private',
+		--'private_settings',
+		--'report',
+		--'service',
+	        --'setlang',
+		--'users',
+		--'warn',
+		--'welcome',
+		--'pin',
+		--'admin',
 		'ranking_data',
 		'ranking',
-		'extra', --must be the last plugin in the list.
-		'extrap', --must be the last plugin in the list.
-		'chatter2',
+		--'extra', --must be the last plugin in the list.
+		--'extrap', --must be the last plugin in the list.
+		--'chatter2',
 	},
 	multipurpose_plugins = {},
 	available_languages = {
-		['en'] = 'English 🇬🇧',
-		['it'] = 'Italiano 🇮🇹',
-		['es'] = 'Español 🇪🇸',
+		--['en'] = 'English 🇬🇧',
+		--['it'] = 'Italiano 🇮🇹',
+		--['es'] = 'Español 🇪🇸',
 		['pt_BR'] = 'Português 🇧🇷',
-		['ru'] = 'Русский 🇷🇺',
-		['de'] = 'Deutsch 🇩🇪',
+		--['ru'] = 'Русский 🇷🇺',
+		--['de'] = 'Deutsch 🇩🇪',
 		--['sv'] = 'Svensk 🇸🇪',
-		['ar'] = 'العربية 🇸🇩',
+		--['ar'] = 'العربية 🇸🇩',
 		--['fr'] = 'Français 🇫🇷',
-		['zh'] = '中文 🇨🇳',
-		['fa'] = 'فارسی 🇮🇷',
-		['id'] = 'Bahasa Indonesia 🇮🇩',
-		['nl'] = 'Dutch 🇱🇺'
+		--['zh'] = '中文 🇨🇳',
+		--['fa'] = 'فارسی 🇮🇷',
+		--['id'] = 'Bahasa Indonesia 🇮🇩',
+		--['nl'] = 'Dutch 🇱🇺'
 		-- more languages will come
 	},
 	allow_fuzzy_translations = false,
